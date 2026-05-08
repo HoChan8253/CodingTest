@@ -1,10 +1,10 @@
 # [level 0] 짝수는 싫어요 - 120813 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120813) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120813?language=csharp) 
 
 ### 성능 요약
 
-메모리: 30.8 MB, 시간: 0.14 ms
+메모리: 30.5 MB, 시간: 0.47 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2026년 05월 09일 01:05:23
+2026년 05월 09일 01:14:01
 
 ### 문제 설명
 
