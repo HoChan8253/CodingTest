@@ -11,7 +11,7 @@ public class Solution
             {
                 answer += char.ToLower(c);
             }
-            if(char.IsLower(c))
+            else
             {
                 answer += char.ToUpper(c);
             }
