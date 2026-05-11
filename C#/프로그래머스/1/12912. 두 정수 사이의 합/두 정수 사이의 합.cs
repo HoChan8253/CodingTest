@@ -9,7 +9,7 @@ public class Solution
         
         for(int i = Math.Min(a, b); i <= Math.Max(a, b); i++)
         {
-           answer += i;
+            answer += i;
         }
         
         return answer;
