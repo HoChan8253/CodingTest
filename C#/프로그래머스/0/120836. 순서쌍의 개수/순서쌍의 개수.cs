@@ -4,7 +4,7 @@ public class Solution
 {
     public int solution(int n) 
     {
-        // 풀이 1
+        // 풀이 1 - O(n)
         //int answer = 0;
         //for(int i = 1; i <= n; i++)
         //{
@@ -15,7 +15,7 @@ public class Solution
         //}
         //return answer;
         
-        // 풀이 2
+        // 풀이 2 - O(√n)
         int answer = 0;
         for(int i = 1; i <= Math.Sqrt(n); i++)
         {
