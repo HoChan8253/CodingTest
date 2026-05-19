@@ -4,24 +4,21 @@ public class Solution
 {
     public string solution(string rsp) 
     {
-        string r = "0";
-        string s = "2";
-        string p = "5";
         string answer = "";
         
         foreach(char c in rsp)
         {
-            if(c.ToString() == r)
+            if(c == '0')
             {
-                answer += p;
+                answer += "5";
             }
-            else if(c.ToString() == s)
+            else if(c == '2')
             {
-                answer += r;
+                answer += "0";
             }
             else
             {
-                answer += s;
+                answer += "2";
             }
         }
         return answer;
