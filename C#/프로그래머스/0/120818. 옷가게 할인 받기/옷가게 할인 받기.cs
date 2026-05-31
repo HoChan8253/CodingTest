@@ -2,11 +2,23 @@ using System;
 
 public class Solution 
 {
-    public int solution(int price) 
+    public int solution(int price)
     {
-        double rate = price >= 500000 ? 0.8 :
-                      price >= 300000 ? 0.9 :
-                      price >= 100000 ? 0.95 : 1.0;
-        return (int)(price * rate);
+        float offPrice = (float)price;
+
+        if (price >= 500000)
+        {
+            offPrice = price - (price * 0.2f);
+        }
+        else if (price >= 300000)
+        {
+            offPrice = price - (price * 0.1f);
+        }
+        else if (price >= 100000)
+        {
+            offPrice = price - (price * 0.05f);
+        }
+        
+        return (int)offPrice;
     }
 }
