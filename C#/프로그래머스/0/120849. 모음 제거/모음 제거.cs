@@ -4,15 +4,8 @@ public class Solution
 {
     public string solution(string my_string) 
     {
-        string answer = "";
-        foreach(char c in my_string)
-        {
-            if(c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u')
-            {
-                continue;
-            }
-            answer += c;
-        }
-        return answer;
+        foreach(char c in "aeiou")
+            my_string = my_string.Replace(c.ToString(), "");
+        return my_string;
     }
 }
