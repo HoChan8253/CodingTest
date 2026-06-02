@@ -4,8 +4,13 @@ public class Solution
 {
     public string solution(string my_string) 
     {
-        foreach(char c in "aeiou")
-            my_string = my_string.Replace(c.ToString(), "");
-        return my_string;
+        string answer = "";
+        string vowels = "aeiou";
+        foreach(char c in my_string)
+        {
+            if(!vowels.Contains(c))
+            answer += c;
+        }
+        return answer;
     }
 }
