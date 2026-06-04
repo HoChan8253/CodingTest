@@ -11,7 +11,7 @@ public class Solution
             {
                 answer += i;
             }
-            if(n % 2 == 0 && i % 2 == 0)
+            else if(n % 2 == 0 && i % 2 == 0)
             {
                 answer += i * i;
             }
