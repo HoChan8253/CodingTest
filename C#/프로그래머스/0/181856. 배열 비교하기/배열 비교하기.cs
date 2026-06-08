@@ -17,8 +17,8 @@ public class Solution
                 sum2 += arr2[i];
             }
             if(sum1 > sum2) answer = 1;
-            else if(sum1 == sum2) answer = 0;
             else if(sum1 < sum2) answer = -1;
+            else answer = 0;
         }
         return answer;
     }
