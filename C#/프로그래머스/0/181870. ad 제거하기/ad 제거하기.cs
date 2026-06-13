@@ -6,13 +6,13 @@ public class Solution
     public string[] solution(string[] strArr) 
     {
         List<string> answer = new List<string>();
-        foreach(string c in strArr)
+        foreach(string s in strArr)
         {
-            if(c.Contains("ad"))
+            if(s.Contains("ad"))
             {
                 continue;
             }
-            answer.Add(c);
+            answer.Add(s);
         }
         return answer.ToArray();
     }
