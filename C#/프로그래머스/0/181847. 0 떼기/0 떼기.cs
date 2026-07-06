@@ -4,17 +4,19 @@ public class Solution
 {
     public string solution(string n_str) 
     {
-        string answer = "";
-        bool start = false;
-        for(int i = 0; i < n_str.Length; i++)
-        {
-            if(!start)
-            {
-                if(n_str[i] == '0') continue;
-                start = true;
-            }
-            answer += n_str[i];
-        }
-        return answer;
+        //string answer = "";
+        //bool start = false;
+        //for(int i = 0; i < n_str.Length; i++)
+        //{
+        //    if(!start)
+        //    {
+        //        if(n_str[i] == '0') continue;
+        //       start = true;
+        //    }
+        //    answer += n_str[i];
+        //}
+        //return answer;
+        
+        return n_str.TrimStart('0');
     }
 }
